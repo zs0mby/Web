@@ -13,7 +13,7 @@
 	[
 	],
 	"build_varint": "",
-	"command_palette":
+	"command_palette": 
 	{
 		"height": 0.0,
 		"last_filter": "",
@@ -29,7 +29,7 @@
 		[
 		]
 	},
-	"distraction_free":
+	"distraction_free": 
 	{
 		"menu_visible": true,
 		"show_minimap": false,
