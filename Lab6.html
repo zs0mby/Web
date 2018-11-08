@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <script>
+         1.
+         console.log('Exercitiu #1');
+         
+         function reverse(string) {
+             var newString = "";
+             for (var i = string.length - 1; i >= 0; i--) {
+                             newString += string[i];
+             }
+             console.log(newString);
+         }
+         reverse("12345");
+         reverse("asdfg");
+         
+         
+         2.
+         console.log('\nExercitiu #2');
+         
+         function removeChar(str, char_pos) {
+          	p1 = str.substring(0, char_pos);
+           	p2 = str.substring(char_pos + 1, str.length);
+           	return (p1 + p2);
+          }
+               console.log(removeChar("String",0));
+         console.log(removeChar("String",4));
+         
+         
+         3.
+         console.log('\nExercitiu #3');
+         
+         function div37(a){
+             if(a%3 === 0 && a%7 === 0) console.log(a + " div with 3 & 7");
+             else if(a%3 === 0) console.log(a + " div with only 3");
+             else if(a%7 === 0) console.log(a + " div with only 7");
+             else console.log(a + " not div with 3 or 7");}
+         div37(2);
+         div37(21);
+         div37(14);
+         div37(6);
+         
+         
+         4.
+         console.log('\nExercitiu #4');
+         
+         function isNumeric(x) {
+           if (isNaN(x)) {
+             return 'false';
+           }
+           return 'true';
+         }
+         
+         console.log(isNumeric('1'));
+         console.log(isNumeric('asd'));
+         
+         
+         5.
+         console.log('\nExercitiu #5');
+         
+          function sum()
+         {
+         	let sum1 = 0;
+            let sum2 = 0;
+            let sum3 = 0;
+         	let x1 = [1,2,3];
+            let x2 = [1,2,'a',3];
+            let x3 = ['asd'];
+             
+          	for (var i = x1.length - 1; i >= 0; i--)
+         	{
+         		if (!isNaN(x1[i]))
+         		{
+         			sum1 += x1[i];
+         		}
+         	}
+            for (var i = x2.length - 1; i >= 0; i--)
+         	{
+         		if (!isNaN(x2[i]))
+         		{
+         			sum2 += x2[i];
+         		}
+         	}
+            for (var i = x3.length - 1; i >= 0; i--)
+         	{
+         		if (!isNaN(x3[i]))
+         		{
+         			sum3 += x3[i];
+         		}
+         	}
+         	console.log(sum1);
+            console.log(sum2);
+            console.log(sum3);
+         }	
+         sum();
+         
+         6.
+         console.log('\nExercitiu #6');
+         
+           function checkProp()
+         {
+          	let input = {red: 'red', green: 'green', white: 'white'}
+          	console.log(input['red']!=undefined);
+            console.log(input['black']!=undefined);
+          }
+         checkProp();
+         
+         
+               
+      </script>
+   </body>
+</html>
+
